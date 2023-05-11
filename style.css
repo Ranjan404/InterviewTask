@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    
+}
+
+.card {
+    border: 2px solid #999;
+    height: 90vh;
+    width: 250px;
+    padding: 10px;
+    margin: auto;
+}
+
+.mar-top-60 {
+    margin-top: 60vh;
+}
+
+h1 {
+    font-size: 18px !important;
+    color: #111;
+    margin-bottom: 10px;
+    font-weight: 700 !important;
+}
+
+p {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.btn {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.color-b {
+    background: #6c25ff;
+    color: #fff;
+}
+
+.color-g {
+    background: #cebafb;
+    color: #111;
+}
+
+.color-w {
+    color: #fff !important;
+}
+
+.textOnInput label {
+    position: absolute;
+    top: -11px;
+    left: 23px;
+    padding: 2px;
+    z-index: 1;
+}
+
+.textOnInput label:after {
+    content: " ";
+    background-color: #fff;
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+label {
+    color: #6c25ff !important;
+    font-size: 11px !important;
+}
+
+.form-control {
+    box-shadow: none !important;
+
+}
+
+.mt-10 {
+    margin-top: 20px;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.color-black {
+    color: #333 !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.middle .img img {
+    max-width: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.top {
+    margin: 10px;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.gmail {
+    font-size: 10px;
+}
+
+.bottom p {
+    border-bottom: 1px dotted #999;
+    padding-bottom: 15px;
+}
